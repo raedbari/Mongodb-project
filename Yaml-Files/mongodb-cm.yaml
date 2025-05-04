@@ -1,0 +1,10 @@
+
+vim mongodb-cm.yaml
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mongodb-cm
+data:
+  my_url: mongodb-svc
+---
